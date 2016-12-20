@@ -1,0 +1,33 @@
+.container{
+	width: 240px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -120px;
+	margin-top: -50px;
+	border-radius: 6px;
+	border:1px solid rgba(0,0,0,.6);
+}
+.container label{
+	display: block;
+	width: 100%;
+	padding: 15px 15px 5px 15px;
+	color: #666;
+	font-size: 13px;
+}
+.container input{
+	display: block;
+	border: 1px solid #eee;
+	padding: 0 10px;
+	margin: 0 10px;
+	height: 20px;
+}
+.container button{
+	display: block;
+	width: 60%;
+	height: 30px;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	margin: 6px auto;
+}
